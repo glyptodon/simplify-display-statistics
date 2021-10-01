@@ -1,0 +1,13 @@
+
+/*
+ * Hide Guacamole client and server statistics, keeping only the remote desktop
+ * framerate and rate of dropped frames.
+ */
+
+.client-statistics dt.client-statistic.server-fps,
+.client-statistics dt.client-statistic.client-fps,
+.client-statistics dt.client-statistic.server-fps + dd,
+.client-statistics dt.client-statistic.client-fps + dd {
+    display: none;
+}
+

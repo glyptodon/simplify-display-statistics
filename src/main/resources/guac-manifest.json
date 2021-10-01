@@ -1,0 +1,16 @@
+{
+
+    "guacamoleVersion" : "*",
+
+    "name"      : "Simplify Display Statistic Toolbar",
+    "namespace" : "simplify-display-statistics",
+
+    "translations" : [
+        "translations/en.json"
+    ],
+
+    "css" : [
+        "styles/hide-guacamole-statistics.css"
+    ]
+
+}
